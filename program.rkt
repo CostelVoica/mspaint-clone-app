@@ -129,7 +129,6 @@
 (check-expect (any-undo packofpairs_3 " ") packofpairs_2)
 (check-expect (any-undo packofpairs_3 "\r") packofpairs_2)
 
-; the exercise doesn't specify to "design" the run-any function, we just need to define it.
 
 (define (run-any pofp)
   (big-bang pofp
